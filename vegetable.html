@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vegetables</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="vegstyle.css">
+</head>
+<body>
+
+
+    <div class="homepage">
+        <div class="Shopping">Shopping World!</div>
+ 
+        <div class="home1"><a href="index.html">HOME</a></div>
+        <div class="offers1"><a href="index.html">OFFER</a></div>
+       
+         <div class="types">
+        <select id="selectcat" name="category" size="1" onchange="window.location.href=this.value;">
+        <option value="index.html">CATEGORIES</option>
+        <option value="#first1">VEGETABLES</option>
+        <option value="#first2">FRUITS</option>
+        <option value="#first3">JUICES</option>
+        <option value="#first4">DRY FRUITS</a></option>
+        </select>
+         </div>
+ 
+         <div class="contact"><a href="index.html">CONTACT</a></div>
+ 
+         <div class="loginpage"><a href="market.html">LOGOUT</a></div>
+ 
+        <div class="search"><input type="text" placeholder="Search.."></div>
+        
+        <div class="search1"><img src="assets/icons/search (1).png"></div>
+        <div class="cart">
+          <div class="cart-count">0</div>
+          <div class="image1" id="cart-pic"><img src="assets/icons/shopping-cart.png"></div>
+         </div>
+        
+         <div class="cart1">
+            <div class="carttitle">Cart Items</div>
+            <div class="cartcontent">
+                 
+             <!--<div class="boxcart">
+             <img src="mango1.png" class="cart-img">
+             <div class="details">
+              <div class="product-title">Mango</div>
+              <div class="price-cart">
+              <div class="cart-price">Rs.140</div>
+              <div class="amt-cart">Rs.140</div>
+             </div>
+             <input type="number" value="1" class="quantity-cart">
+             </div>
+             <img src="delete.png" class="remove-items">
+            </div>
+
+            <div class="boxcart">
+              <img src="mango1.png" class="cart-img">
+              <div class="details">
+               <div class="product-title">Mango</div>
+               <div class="price-cart">
+               <div class="cart-price">Rs.140</div>
+               <div class="amt-cart">Rs.140</div>
+              </div>
+              <input type="number" value="1" class="quantity-cart">
+              </div>
+              <img src="delete.png" class="remove-items">
+            </div>-->
+
+            </div>
+
+            <div class="total">
+              <div class="total-name">Total</div>
+              <div class="total-price">Rs.0</div>
+            </div>
+
+            <button class="buy-button" onclick="placeorder()">Place Order</button>
+            <button class="pay-button" onclick="payorder()">Payment</button>
+
+            <img src="assets/icons/close.png" class="close-img" id="close-image">
+          </div>
+
+          
+
+ </div>
+
+ 
+
+<!--first shop-->
+<div class="first1" id="first1">
+         <div class="swipe">
+         <div class="firstshop" id="firstshop">
+          <div class="tomato"><img src="assets/images/market12.jpg" ></div>
+          <div class="tomato1">Diya's Mart</div>
+          </div>
+
+          <div class="tom">
+            <div class="imagetom"><img src="assets/images/tomato1.jpg" class="veg-img"></div>
+            <div class="texttom">Tomato - </div>
+            <div class="dashtom veg-piece1">1kg - </div>
+            <div class="pricetom price-amt1">150</div>
+            <div class="plustom"><button onclick="sub1()" ondblclick="defaultone()">-</button></div>
+            <div class="boxtom"><button>1</button></div>
+            <div class="mintom"><button onclick="add1()">+</button></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+
+
+          <div class="greens">
+            <div class="imagetom"><img src="assets/images/greens1.jpg" class="veg-img"></div>
+            <div class="texttom">Spinch - </div>
+            <div class="dashtom veg-piece2">1pc - </div>
+            <div class="pricetom price-amt2" >25</div>
+            <div class="plustom"><button onclick="sub2()" ondblclick="defaulttwo()">-</button></div>
+            <div class="boxtom"><button>1</button></div>
+            <div class="mintom"><button onclick="add2()">+</button></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+
+          <div class="onion">
+            <div class="imagetom"><img src="assets/images/onions.jpg" class="veg-img"></div>
+            <div class="texttom">Onion - </div>
+            <div class="dashtom veg-piece3">1kg - </div>
+            <div class="pricetom price-amt3">120</div>
+            <div class="plustom"><button onclick="sub3()" ondblclick="defaultthree()">-</button></div>
+            <div class="boxtom"><button>1</button></div>
+            <div class="mintom"><button onclick="add3()" >+</button></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+
+          <div class="rating-box">
+      
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rateus">Rate Us?</div>
+          </div>
+        
+        </div>
+</div>
+
+
+<div class="cash" id="payment">
+  <img src="assets/icons/correct.png">
+  <h2>Payment Sucessful</h2>
+  <button type="button" onclick="close()">OK</button>
+</div>
+
+
+<!--second-->
+
+<!--second shop-->
+<div class="first2" id="first2">
+  <div class="swipe1">
+   
+   <div class="secondshop" id="secondshop">
+    <div class="tomato"><img src="assets/images/fruits1.jpg"></div>
+    <div class="tomato1">Frutopia</div>
+    </div>
+
+    <div class="strawberry">
+      <div class="imagetom"><img src="assets/images/grapes1.jpg" class="veg-img"></div>
+      <div class="texttom">grapes - </div>
+      <div class="dashtom veg-piece1">1kg - </div>
+      <div class="pricetom price-amt1">200</div>
+      <div class="plustom"><button onclick="sub1()" ondblclick="defaultone()">-</button></div>
+      <div class="boxtom"><button>1</button></div>
+      <div class="mintom"><button onclick="add1()">+</button></div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+
+    <div class="mango">
+      <div class="imagetom"><img src="assets/images/mango1.png" class="veg-img"></div>
+      <div class="texttom">Mango - </div>
+      <div class="dashtom veg-piece2">1kg - </div>
+      <div class="pricetom price-amt2">140</div>
+      <div class="plustom"><button onclick="sub2()" ondblclick="defaulttwo()">-</button></div>
+      <div class="boxtom"><button>1</button></div>
+      <div class="mintom"><button onclick="add2()">+</button></div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="apple">
+      <div class="imagetom"><img src="assets/images/apple1.jpg" class="veg-img"></div>
+      <div class="texttom">Apple - </div>
+      <div class="dashtom veg-piece3">1kg - </div>
+      <div class="pricetom price-amt3">160</div>
+      <div class="plustom"><button onclick="sub3()" ondblclick="defaultthree()">-</button></div>
+      <div class="boxtom"><button>1</button></div>
+      <div class="mintom"><button onclick="add3()">+</button></div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="rating-box">
+
+     <div class="stars">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+     </div>
+     <div class="rateus">Rate Us?</div>
+   </div>
+
+ </div>
+     </div>
+    
+     <div class="cash" id="payment">
+       <img src="assets/icons/correct.png">
+       <h2>Payment Sucessful</h2>
+       <button type="button" onclick="close()">OK</button>
+     </div>
+
+     <!--third shop-->
+     <div class="first3" id="first3">
+      <div class="swipe2">
+
+      <div class="thirdshop" id="thirdshop">
+       <div class="tomato"><img src="assets/images/juiceshop1.jpg"></div>
+       <div class="tomato1">Fresh Findings</div>
+       </div>
+
+       <div class="Blueberry">
+         <div class="imagetom"><img src="assets/images/blueberry1.jpg" class="veg-img"></div>
+         <div class="texttom">Blueberry - </div>
+         <div class="dashtom veg-piece1">1cp - </div>
+         <div class="pricetom price-amt1">80</div>
+         <div class="plustom"><button onclick="sub1()" ondblclick="defaultone()">-</button></div>
+         <div class="boxtom"><button>1</button></div>
+         <div class="mintom"><button onclick="add1()">+</button></div>
+         <button class="add-to-cart">Add to Cart</button>
+       </div>
+
+
+       <div class="mojito">
+         <div class="imagetom"><img src="assets/images/mojito1.jpg" class="veg-img"></div>
+         <div class="texttom">Mojito - </div>
+         <div class="dashtom veg-piece2">1cp - </div>
+         <div class="pricetom price-amt2">25</div>
+         <div class="plustom"><button onclick="sub2()" ondblclick="defaulttwo()">-</button></div>
+         <div class="boxtom"><button>1</button></div>
+         <div class="mintom"><button onclick="add2()">+</button></div>
+         <button class="add-to-cart">Add to Cart</button>
+       </div>
+
+       <div class="falooda">
+         <div class="imagetom"><img src="assets/images/falooda1.jpg" class="veg-img"></div>
+         <div class="texttom">Falooda - </div>
+         <div class="dashtom veg-piece3">1cp - </div>
+         <div class="pricetom price-amt3">80</div>
+         <div class="plustom"><button onclick="sub3()" ondblclick="defaultthree()">-</button></div>
+         <div class="boxtom"><button>1</button></div>
+         <div class="mintom"><button onclick="add3()">+</button></div>
+         <button class="add-to-cart">Add to Cart</button>
+       </div>
+
+
+       <div class="rating-box">
+ 
+         <div class="stars">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="rateus">Rate Us?</div>
+       </div>
+     </div>
+        </div>
+
+        <div class="cash" id="payment">
+         <img src="assets/icons/correct.png">
+         <h2>Payment Sucessful</h2>
+         <button type="button" onclick="close()">OK</button>
+       </div>
+
+       <!--fourth shop-->  
+       <div class="first4" id="first4">
+        <div class="swipe3">
+   
+   <div class="fourthshop" id="fourthshop">
+    <div class="tomato"><img src="assets/images/dryfruits.jpg"></div>
+    <div class="tomato1">Nutty Delights</div>
+    </div>
+
+    <div class="dates">
+     <div class="imagetom"><img src="assets/images/dates1.jpg" class="veg-img"></div>
+     <div class="texttom">Dates - </div>
+     <div class="dashtom veg-piece1">1kg - </div>
+     <div class="pricetom price-amt1">200</div>
+     <div class="plustom"><button onclick="sub1()" ondblclick="defaultone()">-</button></div>
+     <div class="boxtom"><button>1</button></div>
+     <div class="mintom"><button onclick="add1()">+</button></div>
+     <button class="add-to-cart"> Add to Cart</button>
+   </div>
+
+
+    <div class="figs">
+      <div class="imagetom"><img src="assets/images/figs1.jpg" class="veg-img"></div>
+      <div class="texttom">Figs - </div>
+      <div class="dashtom veg-piece2">1kg - </div>
+      <div class="pricetom price-amt2">120</div>
+      <div class="plustom"><button onclick="sub2()" ondblclick="defaulttwo()">-</button></div>
+      <div class="boxtom"><button>1</button></div>
+      <div class="mintom"><button onclick="add2()">+</button></div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="Almonds">
+      <div class="imagetom"><img src="assets/images/Almonds1.jpg" class="veg-img"></div>
+      <div class="texttom">Almond - </div>
+      <div class="dashtom veg-piece3">1kg - </div>
+      <div class="pricetom price-amt3">180</div>
+      <div class="plustom"><button onclick="sub3()" ondblclick="defaultthree()">+</button></div>
+      <div class="boxtom"><button>1</button></div>
+      <div class="mintom"><button onclick="add3()">-</button></div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+
+    <div class="rating-box">
+
+     <div class="stars">
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+       <i class="fa-solid fa-star"></i>
+     </div>
+     <div class="rateus">Rate Us?</div>
+   </div>
+   </div>
+     </div>
+
+     <div class="cash" id="payment">
+       <img src="assets/icons/correct.png">
+       <h2>Payment Sucessful</h2>
+       <button type="button" onclick="close()">OK</button>
+     </div>
+    
+     <script src="vegscript.js"></script>
+           </body>
+           </html>
+    

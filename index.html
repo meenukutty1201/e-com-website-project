@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <link rel="stylesheet" href="assets/css/homestyle.css">
+</head>
+<body>
+  <div class="homepage">
+    <div class="Shopping">Shopping World!</div>
+
+    <div class="home1"><a href="index.html">HOME</a></div>
+    <div class="offers1"><a href="#offerplace">OFFER</a></div>
+   
+     <div class="types">
+    <select id="selectcat" name="category" size="1" onchange="window.location.href=this.value;">
+    <option value="index.html">CATEGORIES</option>
+    <option value="vegetable.html">VEGETABLES</option>
+    <option value="vegetable.html">FRUITS</option>
+    <option value="vegetable.html">JUICES</option>
+    <option value="vegetable.html">DRY FRUITS</a></option>
+    </select>
+     </div>
+
+     
+
+     <div class="contact"><a href="#contact12">CONTACT</a></div>
+
+     <div class="loginpage"><a href="market.html">LOGOUT</a></div>
+
+    <div class="search"><input type="text" placeholder="Search.."></div>
+    
+    <div class="search1"><img src="assets/icons/search (1).png"></div>
+    <div class="cart">
+      <div class="cart-count">0</div>
+      <div class="image1" id="cart-pic"><img src="assets/icons/shopping-cart.png"></div>
+     </div>
+    
+     <div class="cart1">
+        <div class="carttitle">Cart Items</div>
+        <div class="cartcontent">
+             
+         <!--<div class="boxcart">
+         <img src="mango1.png" class="cart-img">
+         <div class="details">
+          <div class="product-title">Mango</div>
+          <div class="price-cart">
+          <div class="cart-price">Rs.140</div>
+          <div class="amt-cart">Rs.140</div>
+         </div>
+         <input type="number" value="1" class="quantity-cart">
+         </div>
+         <img src="delete.png" class="remove-items">
+        </div>
+
+        <div class="boxcart">
+          <img src="mango1.png" class="cart-img">
+          <div class="details">
+           <div class="product-title">Mango</div>
+           <div class="price-cart">
+           <div class="cart-price">Rs.140</div>
+           <div class="amt-cart">Rs.140</div>
+          </div>
+          <input type="number" value="1" class="quantity-cart">
+          </div>
+          <img src="delete.png" class="remove-items">
+        </div>-->
+
+        </div>
+
+        <div class="total">
+          <div class="total-name">Total</div>
+          <div class="total-price">Rs.0</div>
+        </div>
+
+        <button class="buy-button" onclick="placeorder()">Place Order</button>
+        <button class="pay-button" onclick="payorder()">Payment</button>
+        <img src="assets/icons/close.png" class="close-img" id="close-image">
+      </div>
+</div>
+
+    <div class="market1">
+        <div class="side"><img src="market.jpg"></div>
+
+        <div class="slogan">
+          <div class="line1">SERVING FRESH INGREDIENTS</div>
+          <div class="line2">YOUR WAY EVERYDAY!</div> 
+          </div>
+    </div>
+
+    <div class="cash" id="payment">
+      <img src="assets/icons/correct.png">
+      <h2>Payment Sucessful</h2>
+      <button type="button" onclick="close()">OK</button>
+    </div>
+    
+    <div class="offerplace" id="offerplace">
+    <div class="summer">SUMMER SPECIAL OFFERS!</div>
+    <div class="limit"><marquee direction="left" scrollamount="20">Limited Offer!</marquee></div>
+    
+    
+    <div class="offers">
+    
+      <div class="offer1">
+        <div class="sale">Sale of the day!</div>
+        <div class="fad"><img src="assets/images/falooda1.jpg" class="veg-img"></div>
+        <div class="texttom">Falooda</div>
+        <div class="pricetom">60/-</div>
+        <button class="add-to-cart">Buy Now</button>
+      </div>
+
+      <div class="offer1">
+        <div class="sale">Sale of the day!</div>
+        <div class="fad"><img src="assets/images/mango1.png" class="veg-img"></div>
+        <div class="texttom">Mango</div>
+        <div class="pricetom">110/-2kg</div>
+        <button class="add-to-cart">Buy Now</button>
+      </div>
+
+      <div class="offer1">
+        <div class="sale">Sale of the day!</div>
+        <div class="fad"><img src="assets/images/dates1.jpg" class="veg-img"></div>
+        <div class="texttom">Dates</div> 
+        <div class="pricetom">140/- 11/2kg</div>
+        <button class="add-to-cart">Buy Now</button>
+      </div>
+
+      <div class="offer1">
+        <div class="sale">Sale of the day!</div>
+        <div class="fad"><img src="assets/images/blueberry1.jpg" class="veg-img"></div>
+        <div class="texttom">Blueberry</div>
+        <div class="pricetom">70/-2cp</div>
+        <button class="add-to-cart">Buy Now</button>
+      </div>
+
+    </div></marquee>
+
+  </div>
+<!--contact-->
+  <div class="contactsection">
+    <div class="conus">CONTACT US</div>
+  <div class="contact12" id="contact12">
+
+  <div class="add">Shipping From:</div>
+   <div class="add1">15,kk Nagar ,Madurai</div>
+  
+   <div class="head">HeadQuarter:</div>
+   <div class="details">Chennai 19,Valasaravakkam</div>
+  
+   <div class="contactno">Contact No:</div>
+   <div class="num">0452-874879</div>
+  
+   <div class="email">Email Id:</div>
+   <div class="mail">shoopworldece@gmail.com</div>
+  
+   <div class="hours">Working-hours</div>
+   <div class="time">24 hours</div>
+  
+    </div>
+  </div>
+  <script src="indexsrc.js"></script>
+  </body>
+  </html>

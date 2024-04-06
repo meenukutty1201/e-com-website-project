@@ -1,0 +1,798 @@
+body
+      {
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0%;
+        cursor: pointer;
+  font-family:Montserrat;
+      }
+
+      
+      .homepage
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 14, 132);
+    padding-bottom: 15px;
+    margin-left: 0%;
+    position: fixed;
+    width:100%;
+}
+
+.Shopping
+{
+    color:white;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+/*change*/
+.home1 a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  
+}
+
+
+.home1
+{
+  margin-top: 10px;
+  margin-left:40%; 
+}
+
+.loginpage
+{
+  color:white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left:1.5%; 
+}
+
+.loginpage a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.offers1 a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  
+}
+.offers1
+{
+  margin-top: 10px;
+  margin-left:1.5%; 
+}
+
+.contact a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  
+}
+.contact
+{
+  margin-top: 10px;
+  margin-left:2.3%; 
+}
+
+
+.types select 
+{
+   margin-left: 20%; 
+   margin-top: 12px;
+   cursor: pointer;
+   background:none;
+   border:none;
+   color:white;
+   font-weight: bold;
+}
+
+.types select option
+{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(201, 14, 132);
+  font-weight: bold;
+}
+.search1 img
+{
+    width:20px;
+    height:20px;
+    margin-top: 10px;
+}
+
+
+.search
+{
+  margin-left: 5%;
+    margin-top: 10px;
+}
+
+
+
+.search1 img
+{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.cart-count
+{
+  font-size: 15px;
+  margin-left: 2%;
+  position: absolute;
+  background-color: white;
+  width:15px;
+  height:20px;
+  padding-left: 5px;
+  border-radius: 50%;
+  margin-top: 0.1%;
+}
+
+
+.image1 img
+{
+    margin-left: 0.7%;
+    width:20px;
+    height:20px;
+    margin-top: 0.7%;
+    position: absolute;
+}
+
+/*upto*/
+
+/*shop*/
+.first1
+{
+  display: flex;
+  flex-direction: row;
+  background-image: url('veg.jpg');
+  height:720px;
+  
+}
+
+.swipe
+{
+   
+    width:530px;
+    height:500px;
+    margin-left: 480px;
+    margin-top: 6%;
+     border: 2px solid rgb(201, 14, 132);
+     background-color: white;
+     
+
+}
+
+.firstshop
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom:2px dotted rgb(201, 14, 132);
+}
+
+
+.tomato img
+{
+    width: 120px;
+    height:120px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+.tomato1
+{
+    color:rgb(201, 14, 132);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
+/*firstproduct*/
+.tom
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.imagetom img
+{
+    width:50px;
+    height:50px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+.texttom
+{
+    margin-left: 35px;
+    margin-top: 4%;
+    font-weight: bolder;
+}
+
+.dashtom 
+{
+    margin-left: 20px;
+    margin-top: 4%;
+    font-weight: bolder;
+}
+
+
+.pricetom
+{
+    margin-left: 15px;
+    margin-top: 4%;
+    font-weight: bolder;
+}
+
+.plustom button
+{
+    margin-left: 15px;
+    margin-top: 50%;
+    font-weight: bolder;
+    border: 1px solid black;
+    width:25px;
+    height:21px;
+    padding-left: 8px;
+    background-color: white;
+}
+
+.boxtom button
+{
+    margin-top: 50%;
+    width:25px;
+    height:21px;
+    margin-left: 15px;
+    border: 1px solid black;
+    padding-left: 8px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+
+
+.mintom button
+{
+    margin-left: 15px;
+    margin-top: 50%;
+    font-weight: bolder;
+    border: 1px solid black;
+    width:25px;
+    height:21px;
+    padding-left: 8px;
+    background-color: white;
+}
+.add-to-cart
+{
+    background-color: green;
+    color:white;
+    font-weight: bolder;
+    height:25px;
+    width:100px;
+    margin-left: 15px;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    border: none;
+}
+
+/*second product*/
+.greens
+{
+    display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.greens.dashtom
+{
+    margin-left: 25px;
+}
+
+.greens .plustom
+{
+    margin-left: 10px;
+}
+
+
+/*third product*/
+.onion
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.onion .plustom
+{
+    margin-left: 6px;
+}
+
+.onion.dashtom
+{
+    margin-left: 29px;
+}
+
+/*rate*/
+.rating-box {
+  
+  background: white;
+  padding: 25px 50px 35px;
+  border-radius: 25px;
+  
+}
+
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 35%;
+}
+.stars i {
+  color: #ccc3c3;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+ 
+}
+.stars i.active {
+  color:rgb(201, 14, 132);
+}
+
+.rateus
+{
+  color:rgb(201, 14, 132);
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+/*cart*/
+.cart1
+{
+  position: fixed;
+  top:0;
+  right:-100%;
+  width:400px;
+  height:100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: white;
+}
+
+.cart1-active
+{
+  right:0;
+  transition: 0.5s;
+}
+
+.carttitle
+{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color:rgb(201, 14, 132);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.boxcart
+{
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  gap:10px;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.cart-img
+{
+  width:80px;
+  height:80px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.details
+{
+  row-gap: 3rem;
+ 
+}
+
+.price-cart
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.quantity-cart
+{
+  margin-top: 5px;
+  width:95%;
+}
+
+.product-title
+{
+  text-transform: uppercase;
+  color:rgb(201, 14, 132);
+  font-weight: bold;
+}
+
+.remove-items
+{
+  width:15px;
+  height:15px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.cart-price
+{
+  font-weight: bold;
+}
+
+.quantity-cart
+{
+  border:1px solid rgba(0,0,0,0.1);
+  outline: none;
+  width:2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+.close-img
+{
+  width:10px;
+  height:10px;
+}
+
+.total
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.total-name
+{
+   font-weight: 600;
+}
+
+.total-price
+{
+   margin-left: 10px;
+}
+
+.buy-button
+{
+  padding:12px;
+  background-color: rgb(201, 14, 132);
+  color:white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.pay-button
+{
+  padding:12px;
+  background-color: rgb(201, 14, 132);
+  color:white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.close-img
+{
+   position: absolute;
+   top:20px;
+   right: 20px;
+   cursor: pointer;
+   width:15px;
+   height:15px;
+}
+
+/*payment*/
+.cash
+{
+  background-color: rgb(255, 255, 255);
+  width:400px;
+  position: absolute;
+  top:48%;
+  left:50%;
+  visibility:hidden;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding:15px;
+  color:rgb(201, 14, 132);
+  border:1px solid rgb(201, 14, 132);
+}
+
+.show-popup
+{
+  visibility: visible;
+  top:52%;
+}
+
+.cash img
+{
+  width:70px;
+  height:70px;
+
+}
+
+.cash button
+{
+  background-color: rgb(201, 14, 132);
+  color:white;
+  width:50px;
+  border:none;
+  cursor: pointer;
+}
+
+
+/*second shop fruits*/
+/*second shop*/
+
+.first2
+{
+  display: flex;
+  flex-direction: row;
+  background-image: url('fruits12.jpg');
+  background-repeat: no-repeat;
+        background-size: cover;
+  height:720px;
+  margin-top: 5%;
+}
+
+.swipe1
+{
+   
+  width:530px;
+    height:500px;
+    margin-left: 480px;
+    margin-top: 6%;
+     border: 2px solid rgb(201, 14, 132);
+     background-color: white;
+}
+
+.secondshop
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom:2px dotted rgb(201, 14, 132);;
+}
+
+
+
+
+/*firstproduct*/
+.strawberry
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+ 
+/*second product*/
+.mango
+{
+    display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.mango.dashtom
+{
+    margin-left: 25px;
+}
+
+.mango .plustom
+{
+    margin-left: 10px;
+}
+
+
+/*third product*/
+.apple
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.apple .plustom
+{
+    margin-left: 6px;
+}
+
+.apple.dashtom
+{
+    margin-left: 29px;
+}
+
+
+/*third shop*/
+
+.first3
+{
+  display: flex;
+  flex-direction: row;
+  background-image: url('juicey1.jpg');
+  height:720px;
+  margin-top: 5%;
+}
+
+.swipe2
+{
+   
+  width:530px;
+    height:500px;
+    margin-left: 480px;
+    margin-top: 6%;
+     border: 2px solid rgb(201, 14, 132);
+     background-color: white;
+}
+
+.thirdshop
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom:2px dotted rgb(201, 14, 132);;
+}
+
+
+
+
+/*firstproduct*/
+.Blueberry
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+
+
+/*second product*/
+.mojito
+{
+    display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.mojito.dashtom
+{
+    margin-left: 25px;
+}
+
+.mojito .plustom
+{
+    margin-left: 10px;
+}
+
+
+/*third product*/
+.falooda
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.falooda .plustom
+{
+    margin-left: 6px;
+}
+
+.falooda.dashtom
+{
+    margin-left: 29px;
+}
+
+
+/*fourth shop*/
+.first4
+{
+  display: flex;
+  flex-direction: row;
+  background-image: url('nuts1.jpg');
+  height:720px;
+  margin-top: 5%;
+  background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.swipe3
+{
+   
+  width:530px;
+    height:500px;
+    margin-left: 480px;
+    margin-top: 6%;
+     border: 2px solid rgb(201, 14, 132);
+     background-color: white;
+}
+
+.fourthshop
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom:2px dotted rgb(201, 14, 132);;
+}
+
+
+
+
+/*firstproduct*/
+.dates
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+
+
+/*second product*/
+.figs
+{
+    display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.figs.dashtom
+{
+    margin-left: 25px;
+}
+
+.figs .plustom
+{
+    margin-left: 10px;
+}
+
+
+/*third product*/
+.Almonds
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.Almonds .plustom
+{
+    margin-left: 6px;
+}
+
+.Almonds.dashtom
+{
+    margin-left: 29px;
+}
+
+
+
+

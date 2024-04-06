@@ -1,0 +1,651 @@
+
+/*home*/
+body
+{
+  cursor: pointer;
+  font-family:Montserrat;
+}
+
+
+.homepage
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 14, 132);
+    padding-bottom: 15px;
+    height:40px;
+    position: relative;
+}
+
+.Shopping
+{
+    color:white;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+/*change*/
+.home1 a
+{
+  text-decoration: none;
+  
+  color:white;
+  font-weight: bold;
+  
+}
+
+
+.home1
+{
+  margin-top: 10px;
+  margin-left:40%; 
+}
+
+.loginpage
+{
+  color:white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left:1.5%; 
+}
+
+.loginpage a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.offers1 a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  
+}
+.offers1
+{
+  margin-top: 10px;
+  margin-left:1.5%; 
+}
+
+.contact a
+{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  
+}
+.contact
+{
+  margin-top: 10px;
+  margin-left:2.3%; 
+}
+
+
+.types select 
+{
+   margin-left: 20%; 
+   margin-top: 12px;
+   cursor: pointer;
+   background:none;
+   border:none;
+   color:white;
+   font-weight: bold;
+}
+
+.types select option
+{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(201, 14, 132);
+  font-weight: bold;
+}
+.search1 img
+{
+    width:20px;
+    height:20px;
+    margin-top: 10px;
+}
+
+
+.search
+{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+
+
+.search1 img
+{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.cart-count
+{
+  font-size: 15px;
+  margin-left: 2%;
+  position: absolute;
+  background-color: white;
+  width:15px;
+  height:20px;
+  padding-left: 5px;
+  border-radius: 50%;
+  margin-top: 0.1%;
+}
+
+
+.image1 img
+{
+    margin-left: 0.7%;
+    width:20px;
+    height:20px;
+    margin-top: 0.7%;
+    position: absolute;
+}
+
+/*upto*/
+
+
+/*image*/
+.market1
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.slogan
+{
+  font-weight: bolder;
+  color:black;
+  font-size: 35px;
+  width:130%;
+}
+.market1 img
+{
+    margin-top: 5px;
+    width:300%;
+    height:650px;
+}
+   
+.line1
+{
+  margin-top: 20%;
+}
+.line2
+{
+  margin-left: 7.5%;
+  margin-top: 1%;
+}
+
+.summer
+{
+  font-size: 30px;
+  
+  color:rgb(201, 14, 132);
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.limit 
+{
+  background-color: rgb(201, 14, 132);
+  color:white;
+  font-weight: bold;
+  padding-left: 42%;
+  font-weight: bolder;
+}
+/*offer sale*/
+.offerplace
+{
+  margin-top: 7%;
+  
+}
+.offers
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  
+}
+.offer1
+{
+  
+  height:220px;
+  width:20%;
+  margin-left: 20px;
+  margin-top: 1%;
+  border: 5px solid rgb(201, 14, 132);
+}
+
+.sale
+{
+  font-weight: bold;
+  color:rgb(201, 14, 132);
+  margin-left: 20%;
+  margin-top: 0.5%;
+  font-size: 25px;
+}
+
+.fad img
+{
+  height:100px;
+  width:100px;
+  margin-left: 30%;
+}
+
+.pricetom
+{
+  font-weight: bold;
+  color:black;
+  margin-left: 38%;
+  margin-top: 0.5%;
+  font-size: 19px;
+}
+
+.texttom
+{
+  margin-left: 40%;
+  color:rgb(201, 14, 132);
+  font-weight: bold;
+}
+
+.add-to-cart
+{
+  background-color: green;
+  color:white;
+  margin-left: 35%;
+  margin-top: 1%;
+  border:none;
+  font-weight: bold;
+  height:25px;
+  cursor: pointer;
+}
+
+/*cart*/
+/*cart*/
+.cart1
+{
+  position: fixed;
+  top:0;
+  right:-100%;
+  width:400px;
+  height:100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: white;
+}
+
+.cart1-active
+{
+  right:0;
+  transition: 0.5s;
+}
+
+.carttitle
+{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color:rgb(201, 14, 132);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.boxcart
+{
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  gap:10px;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.cart-img
+{
+  width:80px;
+  height:80px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.details
+{
+  row-gap: 3rem;
+ 
+}
+
+.price-cart
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.quantity-cart
+{
+  margin-top: 5px;
+  width:95%;
+}
+
+.product-title
+{
+  text-transform: uppercase;
+  color:rgb(201, 14, 132);
+  font-weight: bold;
+}
+
+.remove-items
+{
+  width:15px;
+  height:15px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.cart-price
+{
+  font-weight: bold;
+}
+
+.quantity-cart
+{
+  border:1px solid rgba(0,0,0,0.1);
+  outline: none;
+  width:2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+.close-img
+{
+  width:10px;
+  height:10px;
+}
+
+.total
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.total-name
+{
+   font-weight: 600;
+}
+
+.total-price
+{
+   margin-left: 10px;
+}
+
+.buy-button
+{
+  padding:12px;
+  background-color: rgb(201, 14, 132);
+  color:white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.pay-button
+{
+  padding:12px;
+  background-color: rgb(201, 14, 132);
+  color:white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.close-img
+{
+   position: absolute;
+   top:20px;
+   right: 20px;
+   cursor: pointer;
+   width:15px;
+   height:15px;
+}
+
+/*payment*/
+.cash
+{
+  background-color: rgb(255, 255, 255);
+  width:400px;
+  position: absolute;
+  top:48%;
+  left:50%;
+  visibility:hidden;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding:15px;
+  color:rgb(201, 14, 132);
+  border:1px solid rgb(201, 14, 132);
+}
+
+.show-popup
+{
+  visibility: visible;
+  top:52%;
+}
+
+.cash img
+{
+  width:70px;
+  height:70px;
+
+}
+
+.cash button
+{
+  background-color: rgb(201, 14, 132);
+  color:white;
+  width:50px;
+  border:none;
+  cursor: pointer;
+}
+
+/*contact*/
+.contact12
+        {
+            border:2px solid rgb(201, 14, 132);
+            margin-top: 3%;
+            width:1000px;
+            margin-left: 16%;
+            height: 350px;
+        }
+        .add
+        {
+            color:rgb(201, 14, 132);
+            font-weight: bold;
+            margin-left: 40%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .add1
+        {
+            color:black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 39%;
+            margin-top: 0.5%;
+        }
+
+        .head
+    {
+        color:rgb(201, 14, 132);
+            font-weight: bold;
+            margin-left: 41%;
+            font-size: 20px;
+            margin-top: 2%;
+    }
+
+    .details
+    {
+        color:black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 37.5%;
+            margin-top: 0.5%;
+    }
+
+    .contactno
+    {
+        color:rgb(201, 14, 132);
+            font-weight: bold;
+            margin-left: 41.5%;
+            font-size: 20px;
+            margin-top: 2%;
+    }
+
+    .num
+    {
+        color:black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 41.5%;
+            margin-top: 0.5%;
+    }
+
+    .email
+    {
+        color:rgb(201, 14, 132);
+            font-weight: bold;
+            margin-left: 42%;
+            font-size: 20px;
+            margin-top: 2%;
+    }
+
+    .mail
+    {
+        color:black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 37.5%;
+            margin-top: 0.5%;
+    }
+    .hours
+    {
+        color:rgb(201, 14, 132);
+            font-weight: bold;
+            margin-left: 40%;
+            font-size: 20px;
+            margin-top: 2%;
+    }
+
+    .time
+    {
+        color:black;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 43%;
+            margin-top: 0.5%;
+    }
+
+    .conus
+    {
+      color:rgb(201, 14, 132);
+      font-weight: bold;
+      margin-top: 0%;
+      margin-left: 42.5%;
+      font-size:25px;
+    }
+
+   .contactsection
+   {
+    
+    margin-top: 28.5%;
+   }
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    [class*="Shopping"] {
+        margin-left:5px;
+        
+      }
+
+    [class*="search"] {
+      margin-left:10px;
+      
+    }
+
+    .search input
+    {
+      width:100px;
+    }
+   
+    .types select
+    {
+      margin-left: 1%;
+    }
+
+    .summer
+    {
+      font-size: 20px;
+    }
+    
+
+    .offer1{
+      width:100%;
+
+  }
+
+    .offer1 .sale
+    {
+      font-size: 15px;
+      margin-left: 1%;
+    }
+
+    .offer1 img
+    {
+      width:50px;
+      height:50px;
+    }
+
+    .offer1 .paisae
+    {
+      margin-top: 10%;
+      margin-left: 30%;
+    }
+
+    .offer1 button
+    {
+      margin-top: 5%;
+      margin-left: 20px;
+    }
+    
+      [class*="swipe"] {
+        margin-left: 0px;
+        
+      }
+      .search1 img{
+        margin-left: 0%;
+      }
+      
+      .image1 img
+      {
+        margin-left: 0%;
+      }
+
+
+
+     }
+
+
+
+
+
+
+  
+
+ 

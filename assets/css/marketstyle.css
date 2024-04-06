@@ -1,0 +1,92 @@
+/*header*/
+.home
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(201, 14, 132);
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.name
+{
+    color:white;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.options 
+{
+    margin-left: 75%;
+    margin-top: 10px;
+}
+
+.options select
+{
+    cursor: pointer;
+}
+.options option
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart img
+{
+    width:20px;
+    height:20px;
+    margin-right: 35px;
+    margin-top: 8px;
+}
+
+
+
+/*main*/
+.main
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic img
+{
+    width:151.8%;
+    height:660px;
+    margin-top: 5px;
+}
+
+.login1
+{
+    background-color:rgb(201, 14, 132);
+    height:30px;
+    width:9%;
+    margin-top: 19%;
+    margin-right: 20%;
+    color:white;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.name1
+{
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.login1 img
+{
+    width:20px;
+    height:20px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.login1 a
+{
+    text-decoration: none;
+    color: white;
+}

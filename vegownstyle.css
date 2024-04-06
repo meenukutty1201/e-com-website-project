@@ -1,0 +1,54 @@
+ body
+        {
+            background-image: url('market.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .home
+
+        {
+            background-color: rgb(201, 14, 132) ;
+            height:50px;
+            
+        }
+        .logout
+        {
+            color:white;
+            font-weight: bolder;
+            padding-top: 0.9%;
+            padding-left: 90%;
+        }
+
+        .logout a
+        {
+           text-decoration: none;
+           color:white;
+        }
+
+        /*shop1*/
+        .firstshop
+        {
+            border:2px dotted black;
+            border-radius:50px;
+            margin-top: 7%;
+            display: flex;
+            flex-direction: row;
+            width:500px;
+            height:300px;
+            margin-left: 35%;
+            background-color: white;
+        }
+
+        .image img
+        {
+            width:110px;
+            height:110px;
+            padding:10px;
+        }
+
+        .text
+        {
+            margin-top: 4%;
+            margin-left: 1%;
+            font-weight: bold;
+        }
